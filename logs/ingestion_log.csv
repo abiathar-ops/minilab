@@ -1,0 +1,81 @@
+timestamp,dataset_name,source_type,rows,status,notes
+2026-03-26T04:08:38.089433+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-26T04:08:38.188150+00:00,customers_from_csv,csv,3,SUCCESS,OK
+2026-03-26T04:08:38.779536+00:00,products_from_xlsx,xlsx,3,SUCCESS,OK
+2026-03-26T04:18:04.880011+00:00,customers_from_db,rdbms,4,SUCCESS,OK
+2026-03-26T04:18:05.188670+00:00,customers_from_csv,csv,3,SUCCESS,OK
+2026-03-26T04:18:05.480875+00:00,products_from_xlsx,xlsx,3,SUCCESS,OK
+2026-03-26T04:18:36.463925+00:00,customers_from_db,rdbms,4,SUCCESS,OK
+2026-03-26T04:18:36.568273+00:00,customers_from_csv,csv,3,SUCCESS,OK
+2026-03-26T04:18:36.848111+00:00,products_from_xlsx,xlsx,3,SUCCESS,OK
+2026-03-27T15:12:13.959476+00:00,customers_from_db,rdbms,30,SUCCESS,OK
+2026-03-27T15:12:14.050985+00:00,orders_from_db,rdbms,63,SUCCESS,OK
+2026-03-27T15:12:14.115366+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-27T15:12:14.695242+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-27T15:49:03.976010+00:00,customers_from_db,rdbms,30,SUCCESS,OK
+2026-03-27T15:49:04.071731+00:00,orders_from_db,rdbms,63,SUCCESS,OK
+2026-03-27T15:49:04.135113+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-27T15:49:04.507720+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T15:57:10.191339+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T15:57:10.230601+00:00,orders_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T15:57:10.339958+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-31T15:57:12.666294+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T15:58:23.983193+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T15:58:24.012992+00:00,orders_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T15:58:24.092547+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-31T15:58:24.334672+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T16:05:18.691817+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T16:05:18.736915+00:00,orders_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T16:05:18.836004+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-31T16:05:19.088342+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T16:12:03.477696+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T16:12:03.510834+00:00,orders_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T16:12:03.593987+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-31T16:12:03.858279+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T16:13:47.837075+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T16:13:47.864541+00:00,orders_from_db,rdbms,0,FAILED,"(psycopg2.OperationalError) connection to server at ""localhost"" (::1), port 5432 failed: FATAL:  password authentication failed for user ""minilab""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+2026-03-31T16:13:47.964876+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-31T16:13:48.205065+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T16:19:05.548393+00:00,customers_from_db,rdbms,30,SUCCESS,OK
+2026-03-31T16:19:05.669199+00:00,orders_from_db,rdbms,63,SUCCESS,OK
+2026-03-31T16:19:05.749609+00:00,customers_from_csv,csv,25,SUCCESS,OK
+2026-03-31T16:19:06.050569+00:00,products_from_xlsx,xlsx,15,SUCCESS,OK
+2026-03-31T17:05:00.838009+00:00,customers_from_db,rdbms,0,FAILED,"(psycopg2.errors.UndefinedTable) relation ""customers"" does not exist
+LINE 1: SELECT * FROM customers
+                      ^
+
+[SQL: SELECT * FROM customers]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+2026-03-31T17:05:00.896401+00:00,orders_from_db,rdbms,0,FAILED,"(psycopg2.errors.UndefinedTable) relation ""orders"" does not exist
+LINE 1: SELECT * FROM orders
+                      ^
+
+[SQL: SELECT * FROM orders]
+(Background on this error at: https://sqlalche.me/e/20/f405)"
+2026-03-31T17:05:00.983856+00:00,employee_performance_csv,csv,500,SUCCESS,OK
+2026-03-31T17:05:01.252674+00:00,employee_skills_xlsx,xlsx,500,SUCCESS,OK
+2026-03-31T17:07:48.519586+00:00,employees_from_db,rdbms,500,SUCCESS,OK
+2026-03-31T17:07:48.621928+00:00,employee_performance_csv,csv,500,SUCCESS,OK
+2026-03-31T17:07:48.970268+00:00,employee_skills_xlsx,xlsx,500,SUCCESS,OK

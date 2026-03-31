@@ -1,0 +1,21 @@
+rdbms:
+  type: postgres
+  host: 127.0.0.1
+  port: 5432
+  database: minilabdb
+  username: minilab
+  password: minilab123
+  sources:
+    - name: employees_from_db
+      query: "SELECT * FROM employees"
+      target: "raw/rdbms/employees/employees_from_db.csv"
+
+files:
+  - name: employee_performance_csv
+    source_type: csv
+    path: "data/input/csv/employee_performance.csv"
+    target: "raw/csv/employee_performance/employee_performance.csv"
+  - name: employee_skills_xlsx
+    source_type: xlsx
+    path: "data/input/xlsx/employee_skills.xlsx"
+    target: "raw/xlsx/employee_skills/employee_skills.csv"
